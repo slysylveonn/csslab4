@@ -1,0 +1,137 @@
+:root {
+    --main-color: #002575;
+    --secondary-color: #556497;
+    --font-size-large: 40px;
+
+}
+
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/020/862/197/original/premium-background-design-with-diagonal-dark-blue-stripe-pattern-horizontal-template-for-digital-lux-business-banner-formal-invitation-luxury-voucher-prestigious-gift-certificate-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+
+}
+
+.header {
+    color: var(--main-color);
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.37);
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: var(font-size-large);
+    text-align: center;
+}
+
+.intro {
+    color: var(--secondary-color);
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+
+
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border: 3px solid var(--main-color);
+    text-align: center;
+
+
+}
+
+.one {
+    background-color: rgba(93, 163, 255, 0.6);
+    padding: 15px;
+    width: 300px;
+    color: white;
+    text-align: center;
+
+}
+
+.two {
+    background-color: rgba(92, 92, 218, 0.6);
+    padding: 35px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.three {
+    background-color: rgb(59, 0, 75, 0.6);
+    padding: 40px;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+
+
+}
+
+.grid-item {
+    background-color: rgba(242, 170, 45, 0.8);
+    padding: 20px;
+    text-align: center;
+    color: white;
+
+}
+
+.relative-container {
+    position: relative;
+    background-color: rgb(178, 185, 209);
+    padding: 30px;
+    margin-top: 20px;
+
+}
+
+.absolute-box {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2px;
+
+}
+
+.positioning-section {
+    color: var(--secondary-color);
+    font-size: var(font-size-large);
+    text-align: center;
+
+
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: var(--secondary-color);
+
+
+}
